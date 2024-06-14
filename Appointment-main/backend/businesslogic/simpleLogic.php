@@ -32,10 +32,7 @@ class SimpleLogic
                 break;
             case "insertDateOptions":
                 $this->dh->insertDateOptions($param);
-                break;
-            case "insertDateOptions":
-                $this->dh->insertDateOptions($param);
-                break;    
+                break; 
             case "getDemoData":
                  $res = $this->dh->loadDemoData();
                  break;
