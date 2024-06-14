@@ -11,6 +11,9 @@ class SimpleLogic
 
     function handleRequest($method, $param, $title, $location, $date, $voting_deadline, $appointment_id, $date_time)
     {
+
+        $res = null; //initialize res
+
         switch ($method) {
             case "infoAppointment":
                 $res = $this->dh->infoAppointment($param);

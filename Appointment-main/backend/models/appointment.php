@@ -5,11 +5,11 @@ include ("db/db.php");
 class Appointment
 {
 
-    private $appointment_id;
-    private $title;
-    private $location;
-    private $date;
-    private $voting_deadline;
+    private int $appointment_id;
+    private string $title;
+    private string $location;
+    private string $date;
+    private string $voting_deadline;
 
     var $db;
 
